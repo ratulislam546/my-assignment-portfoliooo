@@ -1,74 +1,291 @@
-/* loco */
+/* Ratul */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-/* Hero section */
-.hero{
+
+
+/* Body */
+body {
+    background: white;
+}
+
+
+/* Hero Section */
+.hero {
     width: 100%;
     height: 100vh;
+
     background-image: url("../Assets/Hero-bg.png");
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     background-repeat: no-repeat;
+
     display: flex;
     flex-direction: column;
 }
-/* navbar */
-.navbar{
+
+
+/* Navbar */
+.navbar {
     width: 100%;
     padding: 25px 80px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
-/* logo */
-.logo{
+
+
+/* Logo */
+.logo {
     font-size: 22px;
     font-weight: bold;
     color: #2f55ff;
 }
-/* singn ub button */
-.signup-btn{
+
+
+/* Sign Up Button */
+.signup-btn {
     text-decoration: none;
+
     background: #2f55ff;
     color: white;
+
     padding: 10px 20px;
     border-radius: 6px;
+
     font-size: 14px;
     transition: 0.3s;
 }
-.signup-btn:hover{
+
+.signup-btn:hover {
     background: #1d3fd8;
 }
-/* hero content */
-.hero-content{
+
+
+/* Hero Content */
+.hero-content {
     flex: 1;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    text-align: center;
 }
-/* title */
+
+
+/* Hero Title */
 .hero-content h1 {
     font-size: 48px;
     font-weight: bold;
+
     color: #111;
+
     margin-bottom: 25px;
 }
-/* main button */
-.hero-btn{
+
+
+/* Hero Button */
+.hero-btn {
     text-decoration: none;
+
     background: #2f55ff;
     color: white;
+
     padding: 12px 48px;
     border-radius: 8px;
+
     font-size: 15px;
-    transition: o.3s;
+    transition: 0.3s;
 }
-.hero-btn:hover{
+
+.hero-btn:hover {
     background: #1d3fd8;
+}
+
+
+/* Second Section */
+.box {
+    width: 80%;
+    margin: 100px auto;
+
+    background: #f5f1ea;
+    padding: 50px;
+
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Left Side */
+.left h2 {
+    font-size: 34px;
+    color: #111;
+
+    margin-bottom: 15px;
+}
+
+.left p {
+    font-size: 15px;
+    color: #777;
+
+    margin-bottom: 22px;
+    line-height: 1.5;
+}
+
+
+/* Button */
+.btn {
+    text-decoration: none;
+
+    background: #2f55ff;
+    color: #fff;
+
+    padding: 12px 24px;
+    border-radius: 8px;
+
+    font-size: 14px;
+}
+
+
+/* Right Image */
+.right img {
+    width: 260px;
+    border-radius: 16px;
+}
+/* polopolo */
+/* Stats Section */
+
+.stats-box {
+    width: 80%;
+    margin: 80px auto;
+
+    background: #e6ecff;
+    padding: 50px 40px;
+
+    border-radius: 12px;
+    text-align: center;
+}
+
+
+.stats-box h3 {
+    font-size: 20px;
+    color: #222;
+
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.stat h2 {
+    font-size: 42px;
+    color: #2f55ff;
+
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+
+.stat p {
+    font-size: 14px;
+    color: #777;
+}
+/* hope beta */
+.testimonials {
+    width: 80%;
+    margin: 100px auto;
+    background: #f5f1ea;
+    padding: 60px 40px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 26px;
+    color: #222;
+    margin-bottom: 50px;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card {
+    background: transparent;
+    text-align: left;
+    width: 32%;
+}
+
+.stars {
+    color: #f5a623;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.user h4 {
+    font-size: 14px;
+    color: #111;
+}
+
+.user span {
+    font-size: 12px;
+    color: #777;
+}
+.left h2,
+.testimonials h2{
+    background: none;
+    display: inline;
+}
+.box {
+    background: #f5f1ea;
+}
+
+.testimonials {
+    background: #f5f1ea;
+}
+.box,
+.testimonials {
+    background: white; 
 }
